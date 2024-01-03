@@ -7,10 +7,10 @@ if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").match
 }
 
 // 2. Проверка темной темы в localStorage
-if (localStorage.getItem('darkMode') === 'dark') {
+if (localStorage.getItem('darkMode') === 'light') {
     btnDarkMode.classList.add("dark-mode-btn--active");
     document.body.classList.add("dark");
-} else if (localStorage.getItem("darkMode") === "light") {
+} else if (localStorage.getItem("darkMode") === "dark") {
     btnDarkMode.classList.remove("dark-mode-btn--active");
     document.body.classList.remove("dark");
 }
