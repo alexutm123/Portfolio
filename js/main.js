@@ -38,9 +38,9 @@ btnDarkMode.onclick = function () {
     const isDark = document.body.classList.toggle("dark");
 
     if (isDark) {
-        localStorage.setItem("darkMode", "dark");
-    } else {
         localStorage.setItem("darkMode", "light");
+    } else {
+        localStorage.setItem("darkMode", "dark");
     }
 };
 
