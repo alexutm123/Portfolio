@@ -678,8 +678,8 @@ html, body {
 }
 
 .project__img {
-    width: 350px; /* Фиксированная ширина изображения */
-    height: 250px; /* Фиксированная высота изображения */
+    width: 350px; 
+    height: 250px; 
 
     object-fit: contain;
 
@@ -691,19 +691,13 @@ html, body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width:560px)
+{
+.title-1
+{
+margin-top:0;
+}
+}
 
 .snow-container {
     position: fixed;
